@@ -12,14 +12,9 @@ int main(void)
 {
 	int num;
 
-	for (num = 48; num < 58; num++)
+	for (num = 0; num < 9; num++)
 	{
-		putchar(num);
-		if (num < 57)
-		{
-			putchar(44);
-			putchar(32);
-		}
+		putchar(48 + num);
 	}
 	putchar('\n');
 	return (0);
