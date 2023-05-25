@@ -2,18 +2,26 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
+/* more headers goes there */
 
 /**
- * _putchar - program prints _putchar, followed by new line
- * @c: The character to print
+ * main - Entry point
  *
- * Return: On success 1.
- *
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0 (Success)
  */
-	int _putchar(putchar);
+
+int main(void)
 {
-		return (write(1, &c, 1));
+	char *string = "_putchar";
+	int i;
+
+	for (i = 0 ; string[i] != '\0'; i++)
+	{
+		_putchar(string[i]);
+	}
+	_putchar('\n');
+
+	return (0);
 }
 	
 
