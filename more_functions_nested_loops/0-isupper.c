@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-  * isupper - checks for uppercase character
+  * _isupper - checks for uppercase character
   *
   * @c: input letter or number
   *
