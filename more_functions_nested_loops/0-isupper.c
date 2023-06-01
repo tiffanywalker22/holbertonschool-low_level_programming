@@ -13,16 +13,17 @@
 
 int _isupper(int c)
 {
-	int 1 = c
+	int l = c;
 	int i;
 	int r = 0;
 
 	for (i = 65 ; i < 91; i++)
 	{
-		if (i == 1)
+		if (i == l)
 		{
 			r = 1;
 		}
 	}
 	return (r);
+
 }
