@@ -1,3 +1,8 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+#include "main.h"
+
 /**
  * print_line - prints line of length i
  *
