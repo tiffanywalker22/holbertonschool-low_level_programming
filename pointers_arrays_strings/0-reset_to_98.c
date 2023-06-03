@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * reset_to_98 - updates pointer value to 98
