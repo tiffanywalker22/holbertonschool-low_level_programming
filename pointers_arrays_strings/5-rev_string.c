@@ -7,7 +7,7 @@
 /**
  * rev_string - reverses a string
  *
- * @str- the string
+ * @s- the string
  *
  * Returns: nothing
  */
