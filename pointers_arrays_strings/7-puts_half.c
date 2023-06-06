@@ -16,7 +16,6 @@ void puts_half(char *str)
 	int i, j, k;
 
 	j = 0;
-	
 	for (i = 0; str[i] != '\0' ; i++)
 		j++;
 	j = (j - 1);
