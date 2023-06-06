@@ -3,14 +3,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_array - Prints an array 
- *
- * @a: array name
- *
- * @n: number of items to print in an array
- *
- * Return: none
- */
+* print_array - Prints an array 
+*
+* @a: array name
+*
+* @n: number of items to print in an array
+*
+* Return: none
+*/
 
 void print_array(int *a, int n)
 {
