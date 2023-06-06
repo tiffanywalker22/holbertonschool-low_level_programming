@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* strcpy - copies the string
+* _strcpy - copies the string
 *
 * @dest: final location
 *
