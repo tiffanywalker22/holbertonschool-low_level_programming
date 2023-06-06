@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_array - Prints an array 
+* print_array - Prints an array
 *
 * @a: array name
 *
