@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strncpy - copies the specified number of characters from one string to another
+ * _strncpy - copies the specified number of chars from one string to another
  *
  * @src: source string
  *
