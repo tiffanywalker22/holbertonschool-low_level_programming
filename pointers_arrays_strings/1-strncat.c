@@ -9,6 +9,8 @@
  *
  * @dest: destination string
  *
+ * @n: maximum number of bytes to copy
+ *
  * Return: a pointer to the concatenated string
  */
 char *_strncat(char *dest, char *src, int n)
