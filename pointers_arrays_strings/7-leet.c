@@ -5,7 +5,7 @@
 /**
  * leet - encodes string into 1337 leet
  * @s: the string
- * return: the string
+ * return: changes a's to 4s, e's to 3s, o's to 0s, t's to 7s, l's to 1s
  */
 char *leet(char *s)
 {
