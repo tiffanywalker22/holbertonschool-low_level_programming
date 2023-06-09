@@ -7,9 +7,10 @@
  *
  * @s: the string of characters to go through
  *
- * return: changes a's to 4s, e's to 3s, o's to 0s, t's to 7s, l's to 1s
+ * Return: a pointer to the encoded string
  *
  */
+
 char *leet(char *s)
 {
 
