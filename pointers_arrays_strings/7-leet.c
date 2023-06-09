@@ -4,8 +4,11 @@
 #include "main.h"
 /**
  * leet - encodes string into 1337 leet
- * @s: the string
+ *
+ * @s: the string of characters to go through
+ *
  * return: changes a's to 4s, e's to 3s, o's to 0s, t's to 7s, l's to 1s
+ *
  */
 char *leet(char *s)
 {
