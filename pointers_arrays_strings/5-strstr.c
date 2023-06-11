@@ -17,7 +17,7 @@ char *_strstr(char *haystack, char *needle)
 	while (needle[s] != '\0')
 		s++;
 
-	while(*haystack)
+	while (*haystack)
 	{
 		for (i = 0; needle[i]; i++)
 		{
