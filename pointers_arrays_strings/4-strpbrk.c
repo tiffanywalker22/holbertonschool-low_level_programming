@@ -2,8 +2,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strpbrk - searches a string for bytes
- * @s: the string
+ * _strpbrk - search a string for any set of bytes
+ * @s: source string
  * @accept: target matches
  * return: a pointer to index of string at first occurence
  */
