@@ -22,7 +22,6 @@ unsigned int _strspn(char *s, char *accept)
 				matches++;
 				break;
 			}
-			
 			if (accept[j + 1] == '\0' && s[i] != accept[j])
 				return (matches);
 		}
