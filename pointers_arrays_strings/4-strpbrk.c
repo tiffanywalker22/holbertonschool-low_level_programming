@@ -5,12 +5,12 @@
  * _strpbrk - searches a string for bytes
  * @s: the string
  * @accept: target matches
- * return: a pointer to the string
+ * return: a pointer to index of string at first occurence
  */
 char *_strpbrk(char *s, char *accept)
 {
 	int i = 0, j;
-	
+
 	while (s[i] != '\0')
 	{
 		for (j = 0; accept[j] != '\0'; j++)
