@@ -8,7 +8,7 @@
  *
  * @accept: the bytes to search for
  *
- * Return: a pointer to the byte in @s that matches one of the bytes in 
+ * Return: a pointer to the byte in @s that matches one of the bytes in
  * @accept, or null if no such byte is found
  *
  */
