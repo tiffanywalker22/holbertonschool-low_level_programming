@@ -6,7 +6,7 @@ int _sqrt(int n, int i);
 
 /**
  * _sqrt_recursion - find natural square root of n
- * 
+ *
  * @n: n
  *
  * Return: natural square root, or -1 if not natural root
