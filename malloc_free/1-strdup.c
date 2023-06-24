@@ -4,7 +4,7 @@
 /**
  * _strdup - duplicates a string into memory
  *
- * @str - the string to duplicate
+ * @str: the string to duplicate
  *
  * Return: the duplicated string
  */
