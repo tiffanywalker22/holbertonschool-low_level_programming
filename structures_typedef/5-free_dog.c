@@ -1,11 +1,11 @@
 #include "dog.h"
 
 /**
- *  * free_dog - Frees a new dog
- *   * @d: Dog to free
- *    *
- *     * Return: Always Void
- *      */
+ * free_dog - Frees a new dog
+ *@d: Dog to free
+ *
+ * Return: Always Void
+ */
 
 void free_dog(dog_t *d)
 {
