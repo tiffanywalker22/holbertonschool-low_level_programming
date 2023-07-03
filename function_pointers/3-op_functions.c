@@ -13,8 +13,8 @@ int op_add(int a, int b)
 
 /**
  * op_sub - subtract
- * a: int 1
- * b: int 2
+ * @a: int 1
+ * @b: int 2
  *
  * Return: the difference of a and b
  */
@@ -38,9 +38,9 @@ int op_mul(int a, int b)
 /**
  * op_div - divide
  * @a: int 1
- * b: int 2
+ * @b: int 2
  *
- * Return: division of a and b 
+ * Return: division of a and b
  */
 int op_div(int a, int b)
 {
