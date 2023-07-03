@@ -17,7 +17,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	
 	n1 = atoi(argv[1]);
 	n2 = atoi(argv[3]);
 	f = get_op_func(argv[2]);
