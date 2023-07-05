@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 
-/** 
+/**
  * print_all - print anything
  * @format: lists all arguments
  */
@@ -17,7 +17,6 @@ void print_all(const char * const format, ...)
 	{
 		while (format[i])
 		{
-		
 			switch (format[i])
 			{
 				case 'c':
@@ -30,6 +29,7 @@ void print_all(const char * const format, ...)
 					printf("%s%f", sep, va_arg(list, double));										break;
 				case 's':
 					str = va_arg(list, char *);
+
 					if (!str)
 						str = "(nil)";
 					printf("%s%s", sep, str);
