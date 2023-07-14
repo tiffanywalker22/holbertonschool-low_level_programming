@@ -4,7 +4,7 @@
  * @b: points to a string of 0 and 1 characters
  * Return: unsigned int
  */
-unsigned int binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char b)
 {
 
 	int len = 0, i;
