@@ -2,59 +2,48 @@
 /**
  * print_array - prints array
  * @array: array
- * @start: start
- * @end: end
+ * @l: left index of array
+ * @r: right index of array
  */
-void print_array(int *array, size_t start, size_t end)
+void print_array(int *array, size_t l, size_t r)
 {
-	size_t i;
+	size_t i = 0;
 
-	printf("Searching array:");
-	for (i = start; i <= end; i++)
+	printf("Searching in array: ");
+	for (i = l; i <= r; i++)
 	{
-		if (i != end)
-			printf(" %u,", array[i]);
+		if (i != r)
+			printf("%d, ", array[i]);
 		else
-			printf(" %u\n", array[i]);
+			printf("%d\n", array[i]);
 	}
 }
 /**
- * actual_search - searches array
- * @array: array
- * @l: low
- * @h: high
- * @value: value to search
- * Return: index or -1
- */
-int actual_search(int *array, size_t l, size_t h, int value)
-{
-	size_t mid = l + (h - l) / 2;
-
-	print_array(array, l, h);
-	if (array[mid] == value)
-		return (mid);
-	if (l == h)
-		return (-1);
-	if (h > l)
-	{
-		if (array[mid] > value)
-			return (actual_search(array, l, mid - 1, value));
-		else
-			return (actual_search(array, mid + 1, h,  value));
-	}
-	return (-1);
-}
-/**
- * binary_search - searches binarily
+ * binary_search - search
  * @array: array
  * @size: size
- * @value: value
- * Return: int value
+ * @value: value to search for
+ * Return: index where value is found
  */
 int binary_search(int *array, size_t size, int value)
 {
-	if (array == NULL)
+	size_t mid = 0;
+	size_t l = 0;
+	size_t r = size - 1;
+
+	if (!array)
 		return (-1);
 
-	return (actual_search(array, 0, size - 1, value));
+	while (l <= r)
+	{
+		print_array(array, l, r);
+		mid = (l + r) / 2;
+		if (array[mid] == value)
+			return (mid);
+		else if (array[mid] > value)
+			r = mid - 1;
+		else
+			l = mid + 1;
+	}
+	return (-1);
 }
